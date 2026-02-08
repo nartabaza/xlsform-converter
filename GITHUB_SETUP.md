@@ -41,8 +41,8 @@ git add .
 # إنشاء أول commit
 git commit -m "Initial commit: XLSForm Converter Claude Skill"
 
-# إضافة رابط GitHub (استبدل YOUR_USERNAME باسم مستخدمك)
-git remote add origin https://github.com/YOUR_USERNAME/xlsform-converter.git
+# إضافة رابط GitHub (استبدل nartabaza باسم مستخدمك)
+git remote add origin https://github.com/nartabaza/xlsform-converter.git
 
 # رفع الملفات إلى GitHub
 git branch -M main
@@ -54,7 +54,7 @@ git push -u origin main
 بعد رفع الملفات:
 
 1. افتح ملف `README.md`
-2. ابحث عن `YOUR_USERNAME` واستبدلها باسم مستخدم GitHub الفعلي الخاص بك
+2. ابحث عن `nartabaza` واستبدلها باسم مستخدم GitHub الفعلي الخاص بك
 3. احفظ الملف
 4. قم برفع التحديث:
    ```bash
@@ -130,8 +130,8 @@ git add .
 # Create first commit
 git commit -m "Initial commit: XLSForm Converter Claude Skill"
 
-# Add GitHub remote (replace YOUR_USERNAME with your username)
-git remote add origin https://github.com/YOUR_USERNAME/xlsform-converter.git
+# Add GitHub remote (replace nartabaza with your username)
+git remote add origin https://github.com/nartabaza/xlsform-converter.git
 
 # Push files to GitHub
 git branch -M main
@@ -143,7 +143,7 @@ git push -u origin main
 After uploading files:
 
 1. Open `README.md`
-2. Find `YOUR_USERNAME` and replace with your actual GitHub username
+2. Find `nartabaza` and replace with your actual GitHub username
 3. Save the file
 4. Push the update:
    ```bash
@@ -275,13 +275,13 @@ Make sure your username and repository URL are correct in the `git remote add` c
 <div dir="rtl">
 
 بمجرد رفع مهارتك:
-- شارك الرابط: `https://github.com/YOUR_USERNAME/xlsform-converter`
+- شارك الرابط: `https://github.com/nartabaza/xlsform-converter`
 - يمكن للمستخدمين إضافتها مباشرة عبر Claude.ai
 - يمكنك تحديثها في أي وقت بـ `git push`
 
 </div>
 
 Once your skill is uploaded:
-- Share the link: `https://github.com/YOUR_USERNAME/xlsform-converter`
+- Share the link: `https://github.com/nartabaza/xlsform-converter`
 - Users can add it directly through Claude.ai
 - You can update it anytime with `git push`

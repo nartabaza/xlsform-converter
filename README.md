@@ -58,7 +58,7 @@ This skill helps you transform plain text questionnaires (Word documents, text f
 2. اذهب إلى **الإعدادات** (Settings) > **القدرات** (Capabilities) > **إضافة مهارة** (Add Skill)
 3. الصق رابط GitHub لهذه المهارة:
    ```
-   https://github.com/YOUR_USERNAME/xlsform-converter
+   https://github.com/nartabaza/xlsform-converter
    ```
 4. انقر على **إضافة** (Add)
 5. ستكون المهارة جاهزة للاستخدام فوراً!
@@ -69,7 +69,7 @@ This skill helps you transform plain text questionnaires (Word documents, text f
 1. افتح File Explorer
 2. انتقل إلى: `%USERPROFILE%\.claude-code\skills\user\`
 3. أنشئ مجلداً باسم `xlsform-converter`
-4. قم بتحميل الملفات من [GitHub](https://github.com/YOUR_USERNAME/xlsform-converter) وانسخها إلى هذا المجلد
+4. قم بتحميل الملفات من [GitHub](https://github.com/nartabaza/xlsform-converter) وانسخها إلى هذا المجلد
 
 #### لمستخدمي Mac/Linux:
 ```bash
@@ -101,7 +101,7 @@ cd ~/.claude-code/skills/user/xlsform-converter
 2. Go to **Settings** > **Capabilities** > **Add Skill**
 3. Paste the GitHub URL for this skill:
    ```
-   https://github.com/YOUR_USERNAME/xlsform-converter
+   https://github.com/nartabaza/xlsform-converter
    ```
 4. Click **Add**
 5. The skill is ready to use immediately!
@@ -112,7 +112,7 @@ cd ~/.claude-code/skills/user/xlsform-converter
 1. Open File Explorer
 2. Navigate to: `%USERPROFILE%\.claude-code\skills\user\`
 3. Create a folder named `xlsform-converter`
-4. Download files from [GitHub](https://github.com/YOUR_USERNAME/xlsform-converter) and copy them here
+4. Download files from [GitHub](https://github.com/nartabaza/xlsform-converter) and copy them here
 
 #### For Mac/Linux:
 ```bash
@@ -331,7 +331,7 @@ The skill automatically detects and handles:
 ## الدعم
 
 إذا واجهت أي مشاكل أو لديك أسئلة:
-1. تحقق من صفحة [المشاكل](https://github.com/YOUR_USERNAME/xlsform-converter/issues)
+1. تحقق من صفحة [المشاكل](https://github.com/nartabaza/xlsform-converter/issues)
 2. أنشئ مشكلة جديدة مع تفاصيل مشكلتك
 3. قم بتضمين نص الاستبيان النموذجي (إن أمكن)
 
@@ -354,7 +354,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/YOUR_USERNAME/xlsform-converter/issues) page
+1. Check the [Issues](https://github.com/nartabaza/xlsform-converter/issues) page
 2. Create a new issue with details about your problem
 3. Include sample questionnaire text (if possible)
 
