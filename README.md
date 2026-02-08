@@ -136,26 +136,81 @@ Then restart Claude Code to load the skill.
 
 <div dir="rtl">
 
-## الاستخدام
+## كيفية الاستخدام بعد التثبيت
 
-### الاستخدام الأساسي
+### الخطوة 1: قم بتحميل استبيانك
+في Claude.ai، قم بإرفاق ملف استبيانك:
+- **ملف Word (.docx)**: انقر على أيقونة 📎 وحمّل الملف
+- **أو انسخ والصق**: انسخ نص الاستبيان مباشرة في المحادثة
 
-ببساطة، أخبر Claude بتحويل استبيانك:
+### الخطوة 2: أخبر Claude بالتحويل
+اكتب أي من هذه الأوامر البسيطة:
 
 ```
-"حول هذا الاستبيان إلى صيغة XLSForm لـ KoboToolbox"
+"حول هذا إلى XLSForm"
+"حول إلى كوبو"
+"أنشئ نموذج XLSForm من هذا الاستبيان"
 ```
 
-ثم الصق نص استبيانك أو قدم مسار ملف DOCX.
+### الخطوة 3: احصل على ملف Excel الجاهز
+سيقوم Claude بـ:
+- ✅ تحليل استبيانك
+- ✅ اكتشاف أنواع الأسئلة تلقائياً
+- ✅ إنشاء ملف Excel جاهز للتحميل على KoboToolbox أو ODK
 
-### أمثلة على سير العمل
+### مثال بسيط
 
-#### 1. تحويل مستند Word
 ```
-"لدي استبيان في survey.docx - من فضلك حوله إلى XLSForm"
+أنت: [قم بإرفاق ملف questionnaire.docx]
+أنت: "حول هذا إلى كوبو"
+
+Claude: سأحول الاستبيان إلى صيغة XLSForm...
+[يقوم بإنشاء ملف .xlsx جاهز للاستخدام]
 ```
 
-#### 2. تحويل استبيان نصي
+</div>
+
+---
+
+## How to Use After Installation
+
+### Step 1: Upload Your Questionnaire
+In Claude.ai, attach your questionnaire file:
+- **Word file (.docx)**: Click the 📎 icon and upload the file
+- **Or copy-paste**: Paste your questionnaire text directly in the chat
+
+### Step 2: Tell Claude to Convert
+Type any of these simple commands:
+
+```
+"Convert this to XLSForm"
+"Convert to Kobo"
+"Create XLSForm from this questionnaire"
+```
+
+### Step 3: Get Your Ready-to-Use Excel File
+Claude will:
+- ✅ Analyze your questionnaire
+- ✅ Auto-detect question types
+- ✅ Generate a ready-to-use Excel file for KoboToolbox or ODK
+
+### Simple Example
+
+```
+You: [Attach questionnaire.docx file]
+You: "Convert this to XLSForm"
+
+Claude: I'll convert your questionnaire to XLSForm format...
+[Generates ready-to-use .xlsx file]
+```
+
+---
+
+<div dir="rtl">
+
+## أمثلة إضافية
+
+#### استبيان نصي بسيط
 ```
 "حول هذا إلى XLSForm:
 
@@ -167,12 +222,12 @@ Then restart Claude Code to load the skill.
    - آخر
 ```
 
-#### 3. إنشاء نموذج ثنائي اللغة (الإنجليزية-العربية)
+#### نموذج ثنائي اللغة (إنجليزي-عربي)
 ```
 "حول هذا الاستبيان إلى XLSForm مع ترجمة إنجليزية وعربية"
 ```
 
-#### 4. الميزات المتقدمة
+#### الميزات المتقدمة
 تكتشف المهارة تلقائياً وتتعامل مع:
 - أسئلة المصفوفة (الشبكات)
 - المنطق الشرطي (الأسئلة المشروطة)
@@ -184,26 +239,9 @@ Then restart Claude Code to load the skill.
 
 ---
 
-## Usage
+## Additional Examples
 
-### Basic Usage
-
-Simply tell Claude to convert your questionnaire:
-
-```
-"Convert this questionnaire to XLSForm format for KoboToolbox"
-```
-
-Then paste your questionnaire text or provide a DOCX file path.
-
-### Example Workflows
-
-#### 1. Convert a Word Document
-```
-"I have a survey in survey.docx - please convert it to XLSForm"
-```
-
-#### 2. Convert Text Questionnaire
+#### Simple Text Questionnaire
 ```
 "Convert this to XLSForm:
 
@@ -215,12 +253,12 @@ Then paste your questionnaire text or provide a DOCX file path.
    - Other
 ```
 
-#### 3. Create Bilingual Form (English-Arabic)
+#### Bilingual Form (English-Arabic)
 ```
 "Convert this questionnaire to XLSForm with English and Arabic translations"
 ```
 
-#### 4. Advanced Features
+#### Advanced Features
 The skill automatically detects and handles:
 - Matrix rating questions (grids)
 - Skip logic (conditional questions)
