@@ -54,14 +54,14 @@ This skill helps you transform plain text questionnaires (Word documents, text f
 
 ### الطريقة 1: عبر موقع Claude.ai (الأسهل - موصى بها)
 
-1. افتح [Claude.ai](https://claude.ai)
-2. اذهب إلى **الإعدادات** (Settings) > **القدرات** (Capabilities) > **إضافة مهارة** (Add Skill)
-3. الصق رابط GitHub لهذه المهارة:
-   ```
-   https://github.com/nartabaza/xlsform-converter
-   ```
-4. انقر على **إضافة** (Add)
-5. ستكون المهارة جاهزة للاستخدام فوراً!
+1. اذهب إلى [صفحة الإصدارات](https://github.com/nartabaza/xlsform-converter/releases)
+2. قم بتحميل ملف **xlsform-converter-skill.zip**
+3. افتح [Claude.ai](https://claude.ai)
+4. اذهب إلى **الإعدادات** (Settings) > **القدرات** (Capabilities) > **المهارات** (Skills)
+5. انقر على **+ إضافة** (+ Add)
+6. اختر **Upload a skill**
+7. قم برفع ملف ZIP الذي قمت بتحميله
+8. ستكون المهارة جاهزة للاستخدام فوراً!
 
 ### الطريقة 2: التثبيت المحلي (لمستخدمي Claude Code CLI)
 
@@ -97,14 +97,14 @@ cd ~/.claude-code/skills/user/xlsform-converter
 
 ### Method 1: Via Claude.ai (Easiest - Recommended)
 
-1. Open [Claude.ai](https://claude.ai)
-2. Go to **Settings** > **Capabilities** > **Add Skill**
-3. Paste the GitHub URL for this skill:
-   ```
-   https://github.com/nartabaza/xlsform-converter
-   ```
-4. Click **Add**
-5. The skill is ready to use immediately!
+1. Go to the [Releases page](https://github.com/nartabaza/xlsform-converter/releases)
+2. Download **xlsform-converter-skill.zip**
+3. Open [Claude.ai](https://claude.ai)
+4. Go to **Settings** > **Capabilities** > **Skills**
+5. Click **+ Add**
+6. Select **Upload a skill**
+7. Upload the ZIP file you downloaded
+8. The skill is ready to use immediately!
 
 ### Method 2: Local Installation (For Claude Code CLI Users)
 

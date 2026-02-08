@@ -354,7 +354,7 @@ When the user provides a DOCX questionnaire, extract content in the proper order
 
 **CRITICAL**: Using `doc.paragraphs` directly skips all tables. You must iterate through `doc.element.body` to capture everything in document order.
 
-**Reference script available at:** `/mnt/skills/user/xlsform-converter/docx_extractor.py`
+**Reference script available at:** `scripts/docx_extractor.py`
 - Production-ready extraction function
 - Handles paragraphs and tables in correct sequence
 - Can be copied, imported, or used as a pattern
@@ -417,7 +417,7 @@ Watch out for:
 When user provides a text questionnaire:
 
 ### 1. **Analyze Input**
-- **If DOCX file provided**: Use `/mnt/skills/user/xlsform-converter/scripts/docx_extractor.py` to extract content in proper order (tables + paragraphs)
+- **If DOCX file provided**: Use `scripts/docx_extractor.py` to extract content in proper order (tables + paragraphs)
 - Read through the entire questionnaire
 - Identify sections and subsections
 - Note any explicit instructions about logic or validation

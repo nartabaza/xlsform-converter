@@ -58,3 +58,6 @@ sample_*.docx
 # Excel temporary files
 ~$*.xlsx
 ~$*.xls
+
+# Release packages
+*.zip
