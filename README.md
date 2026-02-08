@@ -399,7 +399,3 @@ If you encounter any issues or have questions:
 ## Credits
 
 Created for use with Claude Code to streamline XLSForm creation for humanitarian and research data collection projects.
-
----
-
-**Note** | **ملاحظة**: Replace `YOUR_USERNAME` with your actual GitHub username after creating the repository. | استبدل `YOUR_USERNAME` باسم مستخدم GitHub الفعلي الخاص بك بعد إنشاء المستودع.
